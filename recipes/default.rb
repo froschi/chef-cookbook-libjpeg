@@ -3,11 +3,11 @@ packages = Array.new
 case node[:lsb][:codename]
 when "lucid"
   packages |= %w/
-    libjpeg62
+    libjpeg62-dev
   /
 when "precise"
   packages |= %w/
-    libjpeg8
+    libjpeg8-dev
   /
 end
 
