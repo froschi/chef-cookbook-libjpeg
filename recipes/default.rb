@@ -6,8 +6,6 @@ when "lucid"
     libjpeg62
   /
 when "precise"
-  include_recipe "libjpeg-turbo"
-
   packages |= %w/
     libjpeg8
   /
