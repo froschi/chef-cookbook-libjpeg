@@ -1,19 +1,9 @@
 Description
 ===========
 
+Installs development package for libjpeg.
+
 Requirements
 ============
 
-Attributes
-==========
-
-Usage
-=====
-
-Notes
-=====
-
-Tested on:
-
-* Ubuntu lucid
-* Ubuntu precise
+Ubuntu
