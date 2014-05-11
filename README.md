@@ -31,8 +31,8 @@ Contributing
 
 License and Authors
 -------------------
-Authors: Thorsten Fischer <thorsten@froschi.org>
-Contributor: Joe Bergantine <jbergantine@gmail.com>
+- Author: Thorsten Fischer <thorsten@froschi.org>
+- Contributor: Joe Bergantine <jbergantine@gmail.com>
 
 Copyright 2012 Thorsten Fischer
 
