@@ -1,11 +1,10 @@
 packages = Array.new
 
-case node[:lsb][:codename]
-when "lucid"
+if node.platform_version.to_i == 10
   packages |= %w/
     libjpeg62-dev
   /
-when "precise"
+elsif node.platform_version.to_i >= 12
   packages |= %w/
     libjpeg8-dev
   /
