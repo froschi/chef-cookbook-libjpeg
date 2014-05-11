@@ -1,3 +1,4 @@
+name             'libjpeg'
 maintainer       "Thorsten Fischer"
 maintainer_email "thorsten@froschi.org"
 license          "Apache 2.0"
