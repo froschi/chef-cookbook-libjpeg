@@ -3,6 +3,10 @@ libjpeg CHANGELOG
 
 This file is used to list changes made in each version of the libjpeg cookbook.
 
+develop
+
+- Joe Bergantine - Updated provisioner to verify all HTTPS connections.
+
 1.0.1
 
 - Joe Bergantine - Added 'apt' as a dependency to make sure `apt-get update` runs so Ubuntu 12.04 can use 'libjpeg8-dev' instead of 'libjpeg62-dev'.
