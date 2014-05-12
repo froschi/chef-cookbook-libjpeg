@@ -16,13 +16,15 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
+include_recipe 'apt'
+
 packages = Array.new
 
-if node.platform_version.to_i >= 10 and node.platform_version.to_i <= 12
+if node.platform_version.to_i == 10 
   packages |= %w/
     libjpeg62-dev
   /
-elsif node.platform_version.to_i >= 14
+elsif node.platform_version.to_i >= 12
   packages |= %w/
     libjpeg8-dev
   /
