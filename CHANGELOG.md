@@ -3,8 +3,8 @@ libjpeg CHANGELOG
 
 This file is used to list changes made in each version of the libjpeg cookbook.
 
-develop
--------
+1.0.3
+-----
 - Joe Bergantine - Updated provisioner to verify all HTTPS connections.
 
 1.0.1
@@ -18,7 +18,3 @@ develop
 - Joe Bergantine - Added contribution instructions, license and authors.
 - Joe Bergantine - Added support for Ubuntu 14.04 Trusty Tahr.
 - Joe Bergantine - Added KitchenCI testing.
-
-0.0.1
------
-- Thorsten Fischer - Initial release of libjpeg
