@@ -9,7 +9,7 @@ Requirements
 
 Usage
 -----
-Just include `libjpeg` in your node's `run_list`:
+Include `libjpeg` in your node's `run_list`:
 
 ```json
 {
