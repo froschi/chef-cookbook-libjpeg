@@ -1,10 +1,11 @@
-maintainer       "Thorsten Fischer"
-maintainer_email "thorsten@froschi.org"
+name             'libjpeg'
+maintainer       "Joe Bergantine"
+maintainer_email "joe@joebergantine.com"
 license          "Apache 2.0"
 description      "Installs/Configures libjpeg"
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
-version          "0.0.1"
+version          "1.0.3"
 
-%w/ubuntu/.each { |os| supports os }
+supports         'ubuntu', '>= 10.04'
 
-depends          "libjpeg-turbo", ">= 0.0.1"
+depends          'apt'
